@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imagemain"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/skipButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="34dp"
+        android:text="@string/skip"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/skipButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="46dp"
+        android:hint="@string/passworddd"
+        android:text="@string/zipLogin"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/skipButton"
+        android:layout_centerHorizontal="true"
+        android:text="@string/reg"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/passwordd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/loginButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:hint="@string/passworddd"
+        android:inputType="textPassword"
+        android:textColor="#ffffff" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/usernamee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/passwordd"
+        android:layout_alignLeft="@+id/passwordd"
+        android:layout_alignRight="@+id/passwordd"
+        android:ems="10"
+        android:hint="@string/unEmail"
+        android:text="@string/unEmail"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

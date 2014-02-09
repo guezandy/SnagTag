@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+        
+        <item android:id="@+id/gototaghistory"
+         android:title="@string/History"
+        android:showAsAction="always"></item>
+    
+    <item android:id="@+id/gotowishlist"
+         android:title="@string/Basket"
+        android:showAsAction="always"></item>
+     
+        <item android:id="@+id/gotopurchased"
+         android:title="@string/Purchased"
+        android:showAsAction="always"></item>
+        
+    
+    <item android:id="@+id/gotologin"
+        android:title="@string/Logout"
+        android:showAsAction="always"></item>
+
+</menu>
